@@ -45,11 +45,7 @@
   "experimental": {
     "enabled": false,
     "connection": {
-      "hosts": [
-        "node1.example.com",
-        "node2.example.com",
-        "node3.example.com"
-      ],
+      "hosts": ["node1.example.com", "node2.example.com", "node3.example.com"],
       "port": 5432,
       "database": "devops_experimental",
       "username": "experimental_admin",
@@ -69,11 +65,7 @@
       "replicas": 5,
       "sync_mode": "semi-synchronous",
       "multi_region": true,
-      "regions": [
-        "us-east",
-        "eu-west",
-        "ap-south"
-      ]
+      "regions": ["us-east", "eu-west", "ap-south"]
     },
     "ai_optimization": {
       "query_optimization": true,
