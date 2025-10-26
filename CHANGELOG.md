@@ -1,6 +1,7 @@
-Used git fetch 1 time and git pull 1 time
+# CHANGELOG
 
-- git fetch instructor — 1
-- git pull instructor main — 1
+## Phase 4: Advanced Git Commands
 
-Date: 2025-10-26
+- **git fetch**: Used 1 time to check for updates from instructor's repository
+- **git pull**: Used 1 time to merge updates from instructor/main into local main branch
+
